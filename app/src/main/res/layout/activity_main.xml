@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginLeft="59dp"
+        android:layout_marginTop="114dp"
+        android:layout_marginEnd="197dp"
+        android:layout_marginRight="197dp"
+        android:layout_marginBottom="8dp"
+        android:text="Список контактов"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/phonelist"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/phonelist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="59dp"
+        android:layout_marginLeft="59dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="293dp"
+        android:layout_marginRight="293dp"
+        android:layout_marginBottom="524dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phone" />
+</android.support.constraint.ConstraintLayout>
